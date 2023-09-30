@@ -2073,6 +2073,7 @@ Texture* lovrGraphicsGetWindowTexture(void) {
       .xcb.connection = os_get_xcb_connection(),
       .xcb.window = os_get_xcb_window()
 #endif
+      .android.window = os_get_android_window()
     };
 
     gpu_surface_init(&info);

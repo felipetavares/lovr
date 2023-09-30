@@ -180,6 +180,8 @@ void os_set_mouse_mode(os_mouse_mode mode);
 bool os_is_mouse_down(os_mouse_button button);
 bool os_is_key_down(os_key key);
 
+uintptr_t os_get_android_window();
+
 uintptr_t os_get_win32_window(void);
 uintptr_t os_get_win32_instance(void);
 
